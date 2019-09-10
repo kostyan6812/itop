@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo docker run --privileged --cap-add SYS_ADMIN --cap-add MKNOD --device=/dev/fuse --dns 193.41.140.39 --rm -it easyphp
